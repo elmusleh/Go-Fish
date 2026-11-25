@@ -5,7 +5,7 @@ export default defineConfig({
     globals: true,
     environment: 'node',
     include: ['**/*.test.ts', '**/*.property.test.ts'],
-    exclude: ['_main_reference/**', 'client/**', '**/node_modules/**'],
+    exclude: ['client/**', '**/node_modules/**'],
     testTimeout: 120000,
   },
 });

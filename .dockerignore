@@ -9,10 +9,8 @@ backend
 frontend
 apps
 packages
-_main_reference
 
 # Local config and VCS
-.kiro
 .vscode
 .git
 .claude

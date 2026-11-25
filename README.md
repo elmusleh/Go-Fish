@@ -9,11 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/el-musleh/Go-Fish/actions/workflows/ci.yml">
-    <img src="https://github.com/el-musleh/Go-Fish/actions/workflows/ci.yml/badge.svg" alt="CI status" />
-  </a>
-  <a href="https://github.com/el-musleh/Go-Fish/actions/workflows/deploy-railway.yml">
-    <img src="https://github.com/el-musleh/Go-Fish/actions/workflows/deploy-railway.yml/badge.svg" alt="Railway deploy status" />
+  <a href="https://github.com/elmusleh/Go-Fish/actions/workflows/ci.yml">
+    <img src="https://github.com/elmusleh/Go-Fish/actions/workflows/ci.yml/badge.svg" alt="CI status" />
   </a>
 </p>
 
@@ -24,6 +21,9 @@
   ·
   <a href="#deployment"><strong>Deployment</strong></a>
 </p>
+
+> [!NOTE]
+> **Project status: started at the Cursor Hackathon Heilbronn (Mar 2026) and developed further afterwards; no longer maintained.** The repository is archived and the hosted app (Vercel + Supabase) has been shut down. See the [hackathon pitch](docs/Go%20Fish%20-%20Hackathon%20Pitch.pdf) and the [MVP release](https://github.com/elmusleh/Go-Fish/releases/tag/MVP-Cursor-Hackathon-Heilbronn-2026).
 
 Go Fish helps a group get from "we should do something" to a confirmed plan. One person creates an event, shares a single invite link, collects everyone's availability and preferences, reviews AI-ranked suggestions, and finalizes the activity with email confirmation to the group.
 
@@ -145,9 +145,7 @@ docs/     Supporting project notes
 
 ## Deployment
 
-- Pull requests into `main` run the `CI` workflow
-- Successful pushes to `main` trigger `Deploy to Railway`
-- Railway deploys both the `backend` and `client` services
+The app is no longer hosted. While active, it ran on Railway and later on Vercel (frontend) with Supabase (Postgres, Auth and Edge Functions). Setup notes are in [SUPABASE_SETUP.md](SUPABASE_SETUP.md) and [docs/SUPABASE_AUTH.md](docs/SUPABASE_AUTH.md). Pull requests into `main` run the `CI` workflow.
 
 ## Current Version
 
